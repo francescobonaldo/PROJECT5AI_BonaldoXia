@@ -13,7 +13,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    func fromStringToInt(stringa : String) -> Int{
+        return Int(stringa)!
+    }
+    
+    func calcolaAreaQuadrato(intero : Int) -> Int{
+        return intero * intero
+    }
 
 }
 
